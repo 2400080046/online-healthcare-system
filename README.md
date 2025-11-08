@@ -1,81 +1,70 @@
-# 🏥 Online Medical System
+# Getting Started with Create React App
 
-A comprehensive online medical system built with React, featuring role-based access for Admin, Doctor, Patient, and Pharmacist.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- **Role-Based Access Control**: Separate dashboards for Admin, Doctor, Patient, and Pharmacist
-- **Virtual Consultations**: Book and manage appointments online
-- **E-Prescriptions**: Digital prescription management
-- **Patient Records**: View and manage medical history
-- **Pharmacy Integration**: Process prescriptions and manage orders
-- **Dark/Light Mode**: Toggle between themes
-- **Responsive Design**: Works on all devices
-- **Data Visualization**: Charts and statistics for insights
+In the project directory, you can run:
 
-## Tech Stack
+### `npm start`
 
-- React 18
-- React Router v6
-- Material UI (MUI)
-- Axios for API calls
-- React Hook Form + Yup for validation
-- Recharts for data visualization
-- Framer Motion for animations
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Getting Started
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Installation
+### `npm test`
 
-```bash
-npm install
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Run Development Server
+### `npm run build`
 
-```bash
-npm start
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The app will open at [http://localhost:3000](http://localhost:3000)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Build for Production
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-npm run build
-```
+### `npm run eject`
 
-## Demo Credentials
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Admin
-- Email: `admin@medical.com`
-- Password: `admin123`
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Doctor
-- Email: `doctor@medical.com`
-- Password: `doctor123`
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Patient
-- Email: `patient@medical.com`
-- Password: `patient123`
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Pharmacist
-- Email: `pharmacist@medical.com`
-- Password: `pharmacist123`
+## Learn More
 
-## Project Structure
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```
-/src
-├── components/     # Reusable UI components
-├── pages/         # Page components
-├── context/        # React Context providers
-├── hooks/          # Custom React hooks
-├── utils/          # Utility functions and mock data
-├── App.js          # Main app component
-└── index.js        # Entry point
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## License
+### Code Splitting
 
-MIT
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

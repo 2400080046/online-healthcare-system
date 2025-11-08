@@ -1,49 +1,91 @@
-.App {
-  text-align: center;
-}
-
-.loading-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.error-message {
-  color: #d32f2f;
-  margin: 16px 0;
-  padding: 12px;
-  background-color: #ffebee;
-  border-radius: 4px;
-  border-left: 4px solid #d32f2f;
-}
-
-.success-message {
-  color: #2e7d32;
-  margin: 16px 0;
-  padding: 12px;
-  background-color: #e8f5e9;
-  border-radius: 4px;
-  border-left: 4px solid #2e7d32;
-}
-
-.card-hover {
-  transition: all 0.3s ease;
-}
-
-.card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 600px) {
-  .hide-mobile {
-    display: none !important;
+body {
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
-}
-
-@media (min-width: 601px) {
-  .hide-desktop {
-    display: none !important;
+  
+  .container {
+    padding: 20px;
   }
-}
+  
+  .auth-card, .dashboard {
+    background: white;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  input, textarea, select, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background: #1976d2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0d47a1;
+  }
+  
+  .logout {
+    background: crimson;
+    margin-top: 20px;
+  }
+  
+  .link {
+    color: #1976d2;
+    cursor: pointer;
+  }
+  .admin-panel {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .search-bar {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+  }
+  
+  .appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  .appointment-table th,
+  .appointment-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .appointment-table th {
+    background-color: #007bff;
+    color: white;
+  }

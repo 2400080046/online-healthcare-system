@@ -1,0 +1,54 @@
+.pharmacist-panel {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px 20px;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .panel-title {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  
+  .no-data {
+    text-align: center;
+    font-style: italic;
+    color: #7f8c8d;
+  }
+  
+  .prescription-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .prescription-card {
+    padding: 15px 20px;
+    background-color: #eaf4f4;
+    border-left: 5px solid #00bfa5;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .prescription-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prescription-card p {
+    margin: 5px 0;
+    color: #34495e;
+  }
+  
+  .total-count {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  

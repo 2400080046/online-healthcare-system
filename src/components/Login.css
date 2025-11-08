@@ -1,0 +1,67 @@
+.auth-card {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px 25px;
+  background-color: #f0f4f8; /* soft light background */
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.auth-title {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #2c3e50; /* dark teal/blue */
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #b0bec5; /* soft gray border */
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+}
+
+.auth-form input:focus {
+  border-color: #00bfa5; /* teal accent */
+  box-shadow: 0 0 5px rgba(0, 191, 165, 0.3);
+  outline: none;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6a1b9a; /* deep purple button */
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: #4a148c; /* darker purple on hover */
+}
+
+.auth-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #34495e; /* slightly darker gray text */
+}
+
+.link {
+  color: #00bfa5; /* teal link */
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #008e76; /* darker teal on hover */
+}
